@@ -1,0 +1,26 @@
+{
+  "name": "rounded-it",
+  "version": "1.0.0",
+  "description": "Arredonda as coisas.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMarini/rounded-it.git"
+  },
+  "keywords": [
+    "rounded",
+    "style"
+  ],
+  "author": "Bruno Marini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheMarini/rounded-it/issues"
+  },
+  "homepage": "https://github.com/TheMarini/rounded-it#readme"
+}
