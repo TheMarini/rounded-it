@@ -1,14 +1,22 @@
 function roundedIt(options) {
-  let images = document.querySelectAll('.rounded-it');
+  let images = document.querySelectorAll('.rounded-it');
 
-  if (options.type === 'hard') {
-    options.value = '100px';
-  } else {
-    options.value = '10px';
+  switch (options.type) {
+    case 'hardest':
+      options.value = '1000px'
+      break;
+
+    case 'hard':
+      options.value = '100px'
+      break;
+
+    default:
+      options.value = '10px'
+      break;
   }
 
   images.forEach((image) => {
-    image.style.borderRadious = options.value;
+    image.style.borderRadius = options.value;
   });
 }
 
